@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[8]:
-
-
-import re
-
-
-# In[9]:
-
-
 import re
 
 def score_letter(letter, position, letter_values):
@@ -42,7 +30,7 @@ def read_letter_values(filename="values.txt"):
     return values
 
 def main():
-    surname = "YourSurname"  # Replace with your surname
+    surname = "Harry"  
     input_filename = input("Enter the name of the input file (.txt): ")
     letter_values = read_letter_values()
 
@@ -74,13 +62,10 @@ if __name__ == "__main__":
     main()
 
 
-# In[10]:
 
 
-main()
 
 
-# In[ ]:
 
 
 
